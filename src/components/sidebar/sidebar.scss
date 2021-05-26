@@ -1,0 +1,87 @@
+.slider {
+  .sider-class {
+    background-color:rgba(1, 32, 78, 1);
+    color: #fff;
+
+    position: relative;
+    top: 0;
+    bottom: 0;
+  }
+
+
+  .logo-sidebar {
+    width: 115px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 5px;
+    z-index: 1;
+  }
+
+  .image-logo {
+    background-color: #fff;
+  }
+
+  .text-dashboard {
+    text-align: center;
+  }
+
+  .text-dashboard p {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+
+  .menu-icons {
+    padding-top: 33px;
+    width: 173px;
+    background-color: rgba(1, 32, 78, 1);
+  }
+
+  .text-side {
+    padding-bottom: 45px !important;
+  }
+
+  .ant-menu-submenu-inline > .ant-menu-submenu-title .ant-menu-submenu-arrow {
+    color: rgba(193, 4, 47, 1) !important;
+  }
+
+  .ant-menu-submenu-selected {
+    background-color: rgba(193, 4, 47, 1) !important;
+  }
+
+  // .ant-menu .ant-menu-item-selected.text-side {
+  //     background-color: green !important; /*Overriden property*/
+  //     color: red !important;
+  // }
+
+  .ant-menu .ant-menu-item-selected span {
+    /*Overriden property*/
+    color: rgba(193, 4, 47, 1) !important;
+  }
+
+  .submenu-margin {
+    margin-left: 5px;
+  }
+
+  .text-sub-menu {
+    color: #fff;
+  }
+
+  .ant-menu-submenu > .ant-menu {
+    background-color: rgba(193, 4, 47, 1) !important;
+  }
+
+  .img-logo {
+    background: #28abe3;
+    border-radius: 8px;
+    padding: 5px;
+  }
+
+  .menu-active {
+    background-color: red;
+  }
+
+  .text-sider {
+    margin-left: 9px;
+    color: #fff !important;
+  }
+}

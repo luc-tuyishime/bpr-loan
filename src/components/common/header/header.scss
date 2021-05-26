@@ -1,0 +1,59 @@
+.header {
+  border: 1px solid #e7ebf1;
+  height: 80px;
+
+  .header-text {
+    z-index: 1;
+    color: #303f57;
+    font-weight: 600;
+    font-size: 20px;
+  }
+
+  .profile_text {
+    position: absolute;
+    bottom: 0px;
+    top: 16px;
+    left: 39px;
+  }
+
+  .profile-container {
+    border: 1px solid #fff !important;
+    background-color: #fff !important;
+    line-height: 0 !important;
+  }
+
+  .profile-float {
+    text-align: right !important;
+  }
+
+  .profile_name {
+    color: #303f57;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+  }
+
+  .profile_text {
+    font-size: 12px;
+    text-decoration-line: underline;
+    color: rgba(48, 63, 87, 0.7);
+  }
+
+  .outline-color {
+    color: #303f57 !important;
+    width: 11.67px;
+    height: 30px;
+  }
+
+  @media handheld, only screen and (max-width: 1300px) {
+    .header-text {
+      margin-left: 30px;
+    }
+  }
+
+  @media handheld, only screen and (max-width: 1400px) {
+    .header-text {
+      margin-left: 40px;
+    }
+  }
+}
